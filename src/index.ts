@@ -26,7 +26,7 @@ class Block {
 
 const genesisBlock: Block = new Block(0, "hash-1", "", "this is the first block", 123456);
 
-let blockchain: [Block] = [genesisBlock];
+let blockchain: Block[] = [genesisBlock];
 
 console.log(blockchain);
 
